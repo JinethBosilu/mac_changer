@@ -1,7 +1,7 @@
 import subprocess
 
-interface = "eth0"
-new_mac = "00:11:22:33:44:55"
+interface = input("Enter the interface you want to change the MAC address for: ")
+new_mac = input("Enter the new MAC address: ")
 
 print("[+] Changing MAC address for "+interface+" to "+new_mac)
 
