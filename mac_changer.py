@@ -6,8 +6,11 @@ parser.add_option("-i", "--interface", dest="interface", help="Interface to chan
 parser.add_option("-m", "--mac", dest="new_mac", help="New MAC address")
 (options, arguments) = parser.parse_args()
 
-interface = input("Enter the interface you want to change the MAC address for: ")
-new_mac = input("Enter the new MAC address: ")
+#interface = input("Enter the interface you want to change the MAC address for: ")
+#new_mac = input("Enter the new MAC address: ")
+
+interface = options.interface
+new_mac = options.new_mac
 
 print("[+] Changing MAC address for "+interface+" to "+new_mac)
 
