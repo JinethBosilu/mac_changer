@@ -45,11 +45,6 @@ sudo python3 mac_changer.py
 - If your system uses `ip` instead of `ifconfig`, adapt the script commands or install the `net-tools` package.
 - Consider enhancing the script to accept command-line arguments and validate MAC address format before applying.
 
-## Before pushing to GitHub
-
-- Remove or review any sensitive values. Hard-coded MAC addresses or interface names are not secrets but review for appropriateness.
-- Optionally add a `.gitignore` if you plan to add local config files.
-
 ## License
 
 Use as you wish; include a license file if you plan to publish publicly.
